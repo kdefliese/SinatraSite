@@ -24,3 +24,31 @@
   width: 960px;
   margin: auto;
 }
+
+header {
+  background-color: #B5C8DA;
+  width: 960px;
+  padding: 30px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-family: Helvetica;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+}
