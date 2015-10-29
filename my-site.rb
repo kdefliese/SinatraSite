@@ -14,6 +14,7 @@ class MySite < Sinatra::Base
   end
 
   get "/index.html" do
+    @title = "Home"
     @header1 = "About Me"
     @header1_url = "about_me"
     @header2 = "Projects"
@@ -24,6 +25,7 @@ class MySite < Sinatra::Base
   end
 
   get "/about_me.html" do
+    @title = "About Me"
     @header1 = "Home"
     @header1_url = "index"
     @header2 = "Projects"
@@ -34,6 +36,7 @@ class MySite < Sinatra::Base
   end
 
   get "/projects.html" do
+    @title = "Projects"
     @header1 = "Home"
     @header1_url = "index"
     @header2 = "About Me"
@@ -44,6 +47,7 @@ class MySite < Sinatra::Base
   end
 
   get "/blog.html" do
+    @title = "Blog"
     @header1 = "Home"
     @header1_url = "index"
     @header2 = "About Me"
