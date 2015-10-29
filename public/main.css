@@ -76,6 +76,7 @@ td a {
 
 table {
   color: #333333;
+  border-spacing: 10px 20px;
 }
 
 .blog_title {
