@@ -80,10 +80,13 @@ table {
 }
 
 .blog_title {
-  padding-top: 20px;
   padding-bottom: 10px;
+  line-height: 10px;
 }
 
 .post {
   background-color: #FFFFFF;
+  padding: 10px 20px 4px 20px;
+  margin: 20px 0px;
+  width: 960px;
 }
