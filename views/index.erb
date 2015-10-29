@@ -1,5 +1,8 @@
+<% pics = ["mountains", "castle", "glass"]
+  @pic = pics[rand(3)]
+%>
         <h1>
-          Ooooh, look at the pretty mountains
+          Ooooh, look at the pretty <%= @pic %>
         </h1>
-        <img src ="mountains.jpg" alt="pretty mountains" />
-    
+
+        <img src ="<%= @pic %>.jpg" alt="pretty <%= @pic %>" />
