@@ -80,6 +80,18 @@ table {
   border-spacing: 10px 20px;
 }
 
+footer {
+  color: #333333;
+  font-size: 12px;
+  border-top: 2px solid #333333;
+  margin-top: 100px;
+  line-height: 5px;
+}
+
+footer p {
+line-height: 20px;
+}
+
 .blog_title {
   padding-bottom: 10px;
   line-height: 10px;
