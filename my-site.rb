@@ -56,4 +56,8 @@ class MySite < Sinatra::Base
     @header3_url = "projects"
     erb :blog
   end
+
+  post "/random_cats" do
+    erb :random_cats
+  end
 end
