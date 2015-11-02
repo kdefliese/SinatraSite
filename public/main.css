@@ -79,6 +79,10 @@ td a {
   color: #333333;
 }
 
+td a:hover {
+  color: #990000;
+}
+
 table {
   color: #333333;
   border-spacing: 10px 20px;
@@ -116,4 +120,12 @@ button {
   font-size: 20px;
   font-weight: bold;
   margin: 0px 0px 40px 380px;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+.cats {
+  margin: 20px 0px 40px 200px;
 }

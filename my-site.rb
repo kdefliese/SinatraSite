@@ -58,6 +58,13 @@ class MySite < Sinatra::Base
   end
 
   post "/random_cats" do
+    @title = "Random cat"
+    @header1 = "Home"
+    @header1_url = "index"
+    @header2 = "About Me"
+    @header2_url = "about_me"
+    @header3 = "Projects"
+    @header3_url = "projects"
     erb :random_cats
   end
 end

@@ -1,3 +1,13 @@
+<h1 class="cats">Random Cat Generator gave you a cat!</h1>
+
+<form method="post" action="/random_cats" target="_blank">
+  <button type="submit">Get another cat</button>
+</form>
+
 <p>
-  These are going to be random cat photos
+  <% pics = ["_pew-pew-pew", "business-cat-red-dot", "business-cat_boxes", "business_cat_floor", "eatin_your_bytes", "grumpy-cat-birthday", "grumpy-cat-christmas", "grumpy-cat-sleigh"]
+    @pic = pics[rand(8)]
+  %>
 </p>
+
+<img src ="<%= @pic %>.jpg" alt="<%= @pic %>" class="cats" />
